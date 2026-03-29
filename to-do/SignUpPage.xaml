@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="to_do.SignUpPage">
+
+    <Grid Padding="30">
+
+        <VerticalStackLayout Spacing="20" VerticalOptions="Center">
+
+            <Label
+                Text="Create Account"
+                FontSize="28"
+                HorizontalOptions="Center"/>
+
+            <Entry
+                x:Name="EmailEntry"
+                Placeholder="Email address"
+                Keyboard="Email"/>
+            
+            <Entry
+                x:Name="FirstNameEntry"
+                Placeholder="First name"/>
+
+            <Entry
+                x:Name="LastNameEntry"
+                Placeholder="Last name"/>
+
+            <Entry
+                x:Name="PasswordEntry"
+                Placeholder="Password"
+                IsPassword="True"/>
+
+            <Entry
+                x:Name="ConfirmPasswordEntry"
+                Placeholder="Confirm password"
+                IsPassword="True"/>
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout
+            Spacing="10"
+            VerticalOptions="End">
+
+            <Button
+                Text="Sign Up"
+                Clicked="OnSignUpClicked"/>
+
+            <Button
+                Text="Back to Sign In"
+                Clicked="OnBackClicked"/>
+
+        </VerticalStackLayout>
+
+    </Grid>
+
+</ContentPage>

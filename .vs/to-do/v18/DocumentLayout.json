@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\todopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\todopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\completedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\completedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\completedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\completedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\authstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\authstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\sharedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\sharedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8886D1EE-811B-4969-9FD6-7BD5ACA8509F}|to-do\\to-do.csproj|solutionrelative:to-do\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Christian\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "to-do\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\AppShell.xaml.cs",
+              "RelativeToolTip": "to-do\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:50:29.786Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\App.xaml.cs",
+              "RelativeDocumentMoniker": "to-do\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\App.xaml.cs",
+              "RelativeToolTip": "to-do\\App.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:47:00.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "to-do\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\ProfilePage.xaml",
+              "RelativeToolTip": "to-do\\ProfilePage.xaml",
+              "ViewState": "AgIAAAoAAAAAAAAAAABBwBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T20:08:31.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\AppShell.xaml",
+              "RelativeDocumentMoniker": "to-do\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\AppShell.xaml",
+              "RelativeToolTip": "to-do\\AppShell.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T15:43:14.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "to-do\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\MainPage.xaml.cs",
+              "RelativeToolTip": "to-do\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:50:49.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\App.xaml",
+              "RelativeDocumentMoniker": "to-do\\App.xaml",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\App.xaml",
+              "RelativeToolTip": "to-do\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T16:14:26.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "to-do\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\Task.cs",
+              "RelativeToolTip": "to-do\\Models\\Task.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T18:08:13.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\TodoPage.xaml",
+              "RelativeDocumentMoniker": "to-do\\TodoPage.xaml",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\TodoPage.xaml",
+              "RelativeToolTip": "to-do\\TodoPage.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAIBJwBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T20:53:49.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompletedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\CompletedPage.xaml.cs",
+              "RelativeDocumentMoniker": "to-do\\CompletedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\CompletedPage.xaml.cs",
+              "RelativeToolTip": "to-do\\CompletedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T18:50:13.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompletedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\CompletedPage.xaml",
+              "RelativeDocumentMoniker": "to-do\\CompletedPage.xaml",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\CompletedPage.xaml",
+              "RelativeToolTip": "to-do\\CompletedPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T18:33:14.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\User.cs",
+              "RelativeDocumentMoniker": "to-do\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\User.cs",
+              "RelativeToolTip": "to-do\\Models\\User.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T20:18:20.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "to-do\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\TaskItem.cs",
+              "RelativeToolTip": "to-do\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T18:08:18.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthState.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\AuthState.cs",
+              "RelativeDocumentMoniker": "to-do\\AuthState.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\AuthState.cs",
+              "RelativeToolTip": "to-do\\AuthState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T20:28:08.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "to-do\\SignUpPage.xaml",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\SignUpPage.xaml",
+              "RelativeToolTip": "to-do\\SignUpPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T16:46:04.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SharedTasks.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\SharedTasks.cs",
+              "RelativeDocumentMoniker": "to-do\\SharedTasks.cs",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\SharedTasks.cs",
+              "RelativeToolTip": "to-do\\SharedTasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T19:09:55.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "copilot-instructions.md",
+              "DocumentMoniker": "C:\\Users\\Christian\\copilot-instructions.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\copilot-instructions.md",
+              "ToolTip": "C:\\Users\\Christian\\copilot-instructions.md",
+              "RelativeToolTip": "..\\..\\..\\copilot-instructions.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-16T19:05:16.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "to-do\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Properties\\launchSettings.json",
+              "RelativeToolTip": "to-do\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T15:42:22.58Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
