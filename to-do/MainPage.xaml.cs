@@ -1,9 +1,12 @@
 ﻿using System;
+using to_do.Services;
 
 namespace to_do;
 
 public partial class MainPage : ContentPage
 {
+    private readonly ApiService _apiService = new();
+
     public MainPage()
     {
         InitializeComponent();
@@ -14,9 +17,20 @@ public partial class MainPage : ContentPage
         if (!string.IsNullOrWhiteSpace(EmailEntry.Text) &&
             !string.IsNullOrWhiteSpace(PasswordEntry.Text))
         {
-            AuthState.Username = EmailEntry.Text;
-            Application.Current.MainPage = new AppShell();
-            await Shell.Current.GoToAsync(nameof(TodoPage));
+            var response = await _apiService.SignInAsync(EmailEntry.Text, PasswordEntry.Text);
+
+            if (response?.Status == 200)
+            {
+                AuthState.Username = EmailEntry.Text;
+                AuthState.UserId = response.Data.Id;
+
+                Application.Current.MainPage = new AppShell();
+                await Shell.Current.GoToAsync(nameof(TodoPage));
+            }
+            else
+            {
+                await DisplayAlert("Error", response?.Message ?? "Sign in failed.", "OK");
+            }
         }
         else
         {

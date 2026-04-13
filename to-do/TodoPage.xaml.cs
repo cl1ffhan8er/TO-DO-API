@@ -1,10 +1,13 @@
 ﻿using System.Collections.ObjectModel;
 using to_do.Models;
+using to_do.Services;
 
 namespace to_do;
 
 public partial class TodoPage : ContentPage
 {
+    private readonly ApiService _apiService = new();
+
     public TodoPage()
     {
         InitializeComponent();
@@ -17,12 +20,24 @@ public partial class TodoPage : ContentPage
         string details = await DisplayPromptAsync("Task Details", "Enter Details");
 
         if (!string.IsNullOrEmpty(title))
-        {   
-            SharedTasks.Tasks.Add(new TaskItem
+        {
+            var request = new AddTaskRequest
             {
-                Title = title,
-                Details = details
-            });
+                ItemName = title,
+                ItemDescription = details,
+                UserId = AuthState.UserId
+            };
+
+            var response = await _apiService.AddItemAsync(request);
+
+            if (response?.Status == 200)
+            {
+                SharedTasks.Tasks.Add(response.Data);
+            }
+            else
+            {
+                await DisplayAlert("Error", response?.Message ?? "Failed to add task.", "OK");
+            }
         }
         else
         {
@@ -30,11 +45,21 @@ public partial class TodoPage : ContentPage
         }
     }
 
-    void OnDeleteClicked(object sender, EventArgs e)
+    async void OnDeleteClicked(object sender, EventArgs e)
     {
         Button btn = sender as Button;
         TaskItem task = btn.BindingContext as TaskItem;
-        SharedTasks.Tasks.Remove(task);
+
+        var response = await _apiService.DeleteItemAsync(task.ItemId);
+
+        if (response?.Status == 200)
+        {
+            SharedTasks.Tasks.Remove(task);
+        }
+        else
+        {
+            await DisplayAlert("Error", response?.Message ?? "Failed to delete task.", "OK");
+        }
     }
 
     async void OnEditClicked(object sender, EventArgs e)
@@ -42,14 +67,17 @@ public partial class TodoPage : ContentPage
         Button btn = sender as Button;
         TaskItem task = btn.BindingContext as TaskItem;
 
-        string newTitle = await DisplayPromptAsync("Edit Title", "", initialValue: task.Title);
-        string newDetails = await DisplayPromptAsync("Edit Details", "", initialValue: task.Details);
+        string newTitle = await DisplayPromptAsync("Edit Title", "", initialValue: task.ItemName);
+        string newDetails = await DisplayPromptAsync("Edit Details", "", initialValue: task.ItemDescription);
 
-        task.Title = newTitle;
-        task.Details = newDetails;
+        if (!string.IsNullOrEmpty(newTitle))
+        {
+            task.ItemName = newTitle;
+            task.ItemDescription = newDetails;
 
-        taskList.ItemsSource = null;
-        taskList.ItemsSource = SharedTasks.Tasks;
+            taskList.ItemsSource = null;
+            taskList.ItemsSource = SharedTasks.Tasks;
+        }
     }
 
     void OnCompletedClicked(object sender, EventArgs e)
@@ -64,4 +92,3 @@ public partial class TodoPage : ContentPage
         }
     }
 }
-

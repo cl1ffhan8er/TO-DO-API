@@ -13,10 +13,9 @@
                 <StackLayout HorizontalOptions="Center"
                              VerticalOptions="Center"
                              Spacing="10">
-                    <Image Source="todolistemptypencil.png" WidthRequest="200" HeightRequest="200"> </Image>
-                    <Label Text="No tasks yet." FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="Center"></Label>
-                    <Label Text="Click + to add one." TextColor="Grey" FontSize="Small" HorizontalTextAlignment="Center"> </Label>
-
+                    <Image Source="todolistemptypencil.png" WidthRequest="200" HeightRequest="200"/>
+                    <Label Text="No tasks yet." FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="Center"/>
+                    <Label Text="Click + to add one." TextColor="Grey" FontSize="Small" HorizontalTextAlignment="Center"/>
                 </StackLayout>
             </CollectionView.EmptyView>
             
@@ -27,15 +26,14 @@
                            Padding="10"
                            CornerRadius="10"
                            Margin="5">
-                           
 
                         <VerticalStackLayout>
 
-                            <Label Text="{Binding Title}"
+                            <Label Text="{Binding ItemName}"
                                    FontSize="18"
                                    FontAttributes="Bold"/>
 
-                            <Label Text="{Binding Details}"
+                            <Label Text="{Binding ItemDescription}"
                                    FontSize="14"
                                    Margin="0,0,0,5"/>
 
@@ -50,9 +48,9 @@
                                         TextColor="White"/>
 
                                 <Button Text="✓ Completed"
-                                    Clicked="OnCompletedClicked"
-                                    BackgroundColor="Green"
-                                    TextColor="White"/>
+                                        Clicked="OnCompletedClicked"
+                                        BackgroundColor="Green"
+                                        TextColor="White"/>
 
                             </HorizontalStackLayout>
 
@@ -64,7 +62,6 @@
             </CollectionView.ItemTemplate>
 
         </CollectionView>
-
 
         <!-- FLOATING ADD BUTTON -->
         <Button Text="+"

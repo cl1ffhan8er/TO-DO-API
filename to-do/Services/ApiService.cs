@@ -61,4 +61,73 @@ public class ApiService
             };
         }
     }
+    
+    public async Task<GetTasksResponse?> GetItemsAsync(string status, int userId)
+    {
+        try
+        {
+            string url = $"{BaseUrl}/getItems_action.php?status={Uri.EscapeDataString(status)}&user_id={userId}";
+
+            var response = await _httpClient.GetAsync(url);
+            var json = await response.Content.ReadAsStringAsync();
+
+            return JsonSerializer.Deserialize<GetTasksResponse>(json,
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        catch (Exception ex)
+        {
+            return new GetTasksResponse
+            {
+                Status = 500,
+                Count = "0"
+            };
+        }
+    }
+
+    public async Task<AddTaskResponse?> AddItemAsync(AddTaskRequest request)
+    {
+        try
+        {
+            string url = $"{BaseUrl}/addItem_action.php";
+
+            var jsonBody = JsonSerializer.Serialize(request);
+            var content = new StringContent(jsonBody, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync(url, content);
+            var json = await response.Content.ReadAsStringAsync();
+
+            return JsonSerializer.Deserialize<AddTaskResponse>(json,
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        catch (Exception ex)
+        {
+            return new AddTaskResponse
+            {
+                Status = 500,
+                Message = $"Error: {ex.Message}"
+            };
+        }
+    }
+
+    public async Task<DeleteTaskResponse?> DeleteItemAsync(int itemId)
+    {
+        try
+        {
+            string url = $"{BaseUrl}/deleteItem_action.php?item_id={itemId}";
+
+            var response = await _httpClient.DeleteAsync(url);
+            var json = await response.Content.ReadAsStringAsync();
+
+            return JsonSerializer.Deserialize<DeleteTaskResponse>(json,
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        catch (Exception ex)
+        {
+            return new DeleteTaskResponse
+            {
+                Status = 500,
+                Message = $"Error: {ex.Message}"
+            };
+        }
+    }
 }
