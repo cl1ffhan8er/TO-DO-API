@@ -72,23 +72,54 @@ public partial class TodoPage : ContentPage
 
         if (!string.IsNullOrEmpty(newTitle))
         {
-            task.ItemName = newTitle;
-            task.ItemDescription = newDetails;
+            var request = new UpdateTaskRequest
+            {
+                ItemId = task.ItemId,
+                ItemName = newTitle,
+                ItemDescription = newDetails
+            };
 
-            taskList.ItemsSource = null;
-            taskList.ItemsSource = SharedTasks.Tasks;
+            var response = await _apiService.UpdateItemAsync(request);
+
+            if (response?.Status == 200)
+            {
+                task.ItemName = newTitle;
+                task.ItemDescription = newDetails;
+
+                taskList.ItemsSource = null;
+                taskList.ItemsSource = SharedTasks.Tasks;
+            }
+            else
+            {
+                await DisplayAlert("Error", response?.Message ?? "Failed to update task.", "OK");
+            }
         }
     }
 
-    void OnCompletedClicked(object sender, EventArgs e)
+    async void OnCompletedClicked(object sender, EventArgs e)
     {
         if (sender is Button btn && btn.BindingContext is TaskItem task)
         {
-            if (SharedTasks.Tasks.Contains(task))
-                SharedTasks.Tasks.Remove(task);
+            var request = new ChangeStatusRequest
+            {
+                ItemId = task.ItemId,
+                Status = "inactive"
+            };
 
-            if (!SharedTasks.CompletedTasks.Contains(task))
-                SharedTasks.CompletedTasks.Add(task);
+            var response = await _apiService.ChangeStatusAsync(request);
+
+            if (response?.Status == 200)
+            {
+                if (SharedTasks.Tasks.Contains(task))
+                    SharedTasks.Tasks.Remove(task);
+
+                if (!SharedTasks.CompletedTasks.Contains(task))
+                    SharedTasks.CompletedTasks.Add(task);
+            }
+            else
+            {
+                await DisplayAlert("Error", response?.Message ?? "Failed to update status.", "OK");
+            }
         }
     }
 }

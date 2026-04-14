@@ -130,4 +130,66 @@ public class ApiService
             };
         }
     }
+
+    public async Task<BasicResponse?> UpdateItemAsync(UpdateTaskRequest request)
+    {
+        try
+        {
+            string url = $"{BaseUrl}/editItem_action.php";
+
+            var jsonBody = JsonSerializer.Serialize(request);
+            var content = new StringContent(jsonBody, Encoding.UTF8, "application/json");
+
+            var httpRequest = new HttpRequestMessage(HttpMethod.Put, url)
+            {
+                Content = content
+            };
+
+            var response = await _httpClient.SendAsync(httpRequest);
+            var json = await response.Content.ReadAsStringAsync();
+
+            return JsonSerializer.Deserialize<BasicResponse>(json,
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        catch (Exception ex)
+        {
+            return new BasicResponse
+            {
+                Status = 500,
+                Message = $"Error: {ex.Message}"
+            };
+        }
+    }
+
+    public async Task<BasicResponse?> ChangeStatusAsync(ChangeStatusRequest request)
+    {
+        try
+        {
+            string url = $"{BaseUrl}/statusItem_action.php";
+
+            var jsonBody = JsonSerializer.Serialize(request);
+            var content = new StringContent(jsonBody, Encoding.UTF8, "application/json");
+
+            var httpRequest = new HttpRequestMessage(HttpMethod.Put, url)
+            {
+                Content = content
+            };
+
+            var response = await _httpClient.SendAsync(httpRequest);
+            var json = await response.Content.ReadAsStringAsync();
+
+            return JsonSerializer.Deserialize<BasicResponse>(json,
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        catch (Exception ex)
+        {
+            return new BasicResponse
+            {
+                Status = 500,
+                Message = $"Error: {ex.Message}"
+            };
+        }
+    }
 }
+
+

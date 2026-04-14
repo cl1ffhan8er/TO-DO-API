@@ -58,3 +58,4 @@ public class BasicResponse
     [JsonPropertyName("message")]
     public string? Message { get; set; }
 }
+

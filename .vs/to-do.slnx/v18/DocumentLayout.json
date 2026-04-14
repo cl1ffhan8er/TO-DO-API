@@ -1,23 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4CB42A04-427B-FFFC-129F-BE62E3261F49}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB42A04-427B-FFFC-129F-BE62E3261F49}|to-do\\to-do.csproj|solutionrelative:to-do\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CB42A04-427B-FFFC-129F-BE62E3261F49}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB42A04-427B-FFFC-129F-BE62E3261F49}|to-do\\to-do.csproj|solutionrelative:to-do\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Christian\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CB42A04-427B-FFFC-129F-BE62E3261F49}|to-do\\to-do.csproj|c:\\users\\christian\\downloads\\to-do-final-main\\to-do-final-main\\to-do\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB42A04-427B-FFFC-129F-BE62E3261F49}|to-do\\to-do.csproj|solutionrelative:to-do\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Christian\\source\\repos\\cl1ffhan8er\\TO-DO-API\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -25,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,55 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProfilePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\ProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "to-do\\ProfilePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\ProfilePage.xaml.cs",
-              "RelativeToolTip": "to-do\\ProfilePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T04:55:07.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Microsoft.Maui.Resizetizer.After.targets",
-              "DocumentMoniker": "C:\\Users\\Christian\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ToolTip": "C:\\Users\\Christian\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ViewState": "AgIAAGECAAAAAAAAAAAuwHECAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-03-29T04:54:41.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\TaskItem.cs",
-              "RelativeDocumentMoniker": "to-do\\Models\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\TaskItem.cs",
-              "RelativeToolTip": "to-do\\Models\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T04:43:51.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "to-do\\Models\\Task.cs",
-              "ToolTip": "C:\\Users\\Christian\\Downloads\\to-do-final-main\\to-do-final-main\\to-do\\Models\\Task.cs",
-              "RelativeToolTip": "to-do\\Models\\Task.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwEAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T22:42:20.715Z"
             }
           ]
         }
